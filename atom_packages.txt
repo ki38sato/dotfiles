@@ -1,0 +1,10 @@
+Sublime-Style-Column-Selection@1.7.4
+autocomplete-python@1.8.63
+busy-signal@1.4.1
+highlight-selected@0.13.1
+intentions@1.1.2
+linter@2.1.4
+linter-ui-default@1.2.4
+minimap@4.28.2
+minimap-highlight-selected@4.6.1
+project-plus@0.9.0
