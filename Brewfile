@@ -15,6 +15,7 @@ brew 'pwgen'
 brew 'python'
 # reattach-to-user-namespace is workaround for tmux/pbcopy with sierra
 brew 'reattach-to-user-namespace'
+brew 'tig'
 brew 'tmux'
 brew 'tree'
 brew 'wget'
