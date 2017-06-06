@@ -93,7 +93,8 @@ export PATH=$PATH:$GOPATH/bin
 alias g='cd $(ghq list -p | peco)'
 alias d_lambda='docker run -it --name lambda --rm -v $HOME/dev/docker_home:/root -v $HOME/dev:/data lambda /bin/bash'
 alias d_terraform='docker run -it --name terraform --rm -v $HOME/dev/docker_home:/root -v $HOME/dev:/data terraform:0.9.4 /bin/bash'
-alias d_golang='docker run -it --name golang --rm -v $HOME/dev/docker_home:/root -v $HOME/dev:/data go-dev /bin/bash'
+alias d_golang='docker run -it --name golang --rm -v $HOME/dev/docker_home:/root -v $HOME/dev:/data -v $HOME/ref:/ref go-dev /bin/bash'
+alias d_apex='docker run -it --name apex-go --rm -v $HOME/dev/docker_home:/root -v $HOME/dev:/data -v $HOME/ref:/ref apex-go /bin/bash'
 alias d_rm='(docker ps -q --filter "status=exited" || echo :) | xargs docker rm'
 alias d_rmi='(docker images -aq --filter "dangling=true" || echo :) | xargs docker rmi'
 
