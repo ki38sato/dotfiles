@@ -10,6 +10,8 @@ brew 'go'
 brew 'ghq'
 brew 'jq'
 brew 'mas'
+# for dlv (go-plus ATOM)
+brew 'mercurial'
 brew 'peco'
 brew 'pwgen'
 brew 'python'
