@@ -12,3 +12,5 @@ linter-ui-default@1.6.2
 minimap@4.28.2
 minimap-highlight-selected@4.6.1
 project-plus@1.0.0
+language-terraform@0.8.1
+linter-terraform-syntax@1.2.3
