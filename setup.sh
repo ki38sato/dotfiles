@@ -28,5 +28,7 @@ else
   git config --global --add ghq.root $HOME/dev/src
 fi
 
+cp docker_home/* $HOME/dev/docker_home
+
 # setup Atom packages
 apm install --packages-file atom_packages.txt
